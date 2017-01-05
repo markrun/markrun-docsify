@@ -2,8 +2,6 @@
 
 [oneline](http://markrun.github.io/markrun-docsify/)
 
-[oneline react](http://markrun.github.io/markrun-docsify/react.html)
-
 ```html
 <!DOCTYPE html>
 <html>
