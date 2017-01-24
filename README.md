@@ -21,7 +21,6 @@
 <script src="//unpkg.com/react@0.13.1/dist/JSXTransformer.js"></script>
 <!--  不需要编译 react jsx 则删除这些 script End -->
 
-<script src="//unpkg.com/prismjs" ></script>
 <script src="//unpkg.com/markrun/dist/markrun.min.js" ></script>
 <script>
 window.$docsify = {
@@ -29,9 +28,6 @@ window.$docsify = {
         markrun.setOptions({
             template: '',
             markdownParser: marked,
-            highlight: function (source, lang, data) {
-                return Prism.highlight(source,  Prism.languages[lang] || Prism.languages.markup)
-            },
             compile: {
                 js: function (source) {
                     // 如果需要编译则编译 source 后 eval
