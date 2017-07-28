@@ -1,6 +1,6 @@
 # markrun-docsify
 
-[oneline](http://markrun.github.io/markrun-docsify/)
+[online](http://markrun.github.io/markrun-docsify/)
 
 ```html
 <!DOCTYPE html>
