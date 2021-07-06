@@ -50,6 +50,6 @@ window.$docsify = {
     }
 }
 </script>
-<script src="//unpkg.com/docsify" data-router></script>
+<script src="https://unpkg.com/docsify@3.7.3/lib/docsify.js"  data-router ></script>
 </html>
 ```
